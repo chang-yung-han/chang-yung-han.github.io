@@ -141,9 +141,9 @@ footer{
 .product01{
     display:flex;
     background-color:#ede9db;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    padding: 35px 180px 90px;
+    padding: 100px 180px 90px;
 }
 .product01 div{
     width: 300px;
@@ -160,6 +160,20 @@ footer{
 .product01 p{
     font-size: 14px;
     line-height: 1.6em;
+}
+.product02{
+    display:flex;
+    background-color:#ede9db;
+    justify-content: space-between;
+    align-items: center;
+    padding: 70px 130px 70px;
+}
+.product02 div{
+    width: 600px;
+}
+.product02 img{
+    width: 100%;
+    border-radius: 10px;
 }
 .newsltter{
     background-color: #485652;
